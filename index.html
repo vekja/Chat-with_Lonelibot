@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Lonelibot</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+    <style id="background-image">
+      body {
+        background-image: url("https://i.ibb.co/z8DH0wH/cheerup.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left top;
+        position: absolute;
+        height: 610px;
+        width: px;
+        margin:0;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <h1>Chat with Lonelibot</h1>
+      <p id="instructions-for-user">Enter your text below to start a conversation with Lonelibot to help reduce your stress.</p>
+      <form id="art-search">
+        <textarea id="chat-input"name="text"rows="14" cols="50" wrap="soft"> </textarea>
+      
+        <br />
+        <button id="search-button" type="submit">Chat Now</button>
+      </form>
+    </div>
+
+      <div id="results"></div>
+    
+      <div id="artwork-container">
+        <!-- added placeholder div and closing tag. It didn't work, but I left it there for now so I don't fuck anything else up this evening and not know where I need to start tomorrow. -->
+        <div class="placeholder">
+        <h2 id="artwork-title"></h2>
+        <h3 id="artist-name"></h3>
+        <img id="artwork-image" src="" alt="Artwork" />
+        <p id="artwork-description"></p>
+      </div>
+      </div>
+    </div>
+<div class="informative-info">
+  <p id="additional-information">Here at Lonelibot,<br> we understand the importance of self-care<br> and mental health awareness.<br> We hope that you will enjoy the tool that we have created <br>to try to combat some of the negative feelings<br> that we humans experience<br> on a day-to-day basis.</p>
+</div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <footer id="copyright-and-credits"><p>copyright 2023<br>World Changer with AI</p></footer>
+  </body>
+</html>
